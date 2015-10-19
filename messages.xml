@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+	<message>
+		<id>1</id>
+		<parent_id>0</parent_id>
+		<username>Александр Пушкин</username>
+		<msg_date>13.10.2015 22:41:10</msg_date>
+		<msg_text>Очень хороший сайт. Спасибо!</msg_text>
+		<key/>
+	</message>
+	<message>
+		<id>2</id>
+		<parent_id>0</parent_id>
+		<username>Лев Толстой</username>
+		<msg_date>13.10.2015 22:42:03</msg_date>
+		<msg_text>Мало текста только.</msg_text>
+		<key/>
+	</message>
+	<message>
+		<id>3</id>
+		<parent_id>0</parent_id>
+		<username>Александр Пушкин</username>
+		<msg_date>13.10.2015 22:43:12</msg_date>
+		<msg_text>Пиши еще!</msg_text>
+		<key/>
+	</message>
+	<message>
+		<id>4</id>
+		<parent_id>2</parent_id>
+		<username>Михаил Лермонтов</username>
+		<msg_date>13.10.2015 22:45:12</msg_date>
+		<msg_text>Да в самый раз, Лёва...</msg_text>
+		<key/>
+	</message>
+	<message>
+		<id>5</id>
+		<parent_id>4_2</parent_id>
+		<username>Лев Толстой</username>
+		<msg_date>13.10.2015 22:46:12</msg_date>
+		<msg_text>Я вот больше пишу, больше</msg_text>
+		<key/>
+	</message>
+<message><username>Василий</username><msg_text>Одобряю полностью!</msg_text><msg_date>14.10.2015 14:44:37</msg_date><id>561e4e350d575</id><parent_id>4_2</parent_id><key>561e3838754797.97439775</key></message><message><username>Георгий</username><msg_text>вот именно...</msg_text><msg_date>14.10.2015 14:44:49</msg_date><id>561e4e412027e</id><parent_id>4_2</parent_id><key>561e3838754797.97439775</key></message><message><username>кто-то</username><msg_text>зато как хорошо пишет!</msg_text><msg_date>14.10.2015 14:45:16</msg_date><id>561e4e5c363e4</id><parent_id>2</parent_id><key>561e3838754797.97439775</key></message><message><username>Николай Гоголь</username><msg_text>Хорошо.
+</msg_text><msg_date>14.10.2015 14:50:22</msg_date><id>561e4f8e9053e</id><parent_id>0</parent_id><key>561e4f8e9084b4.09078914</key></message></messages>

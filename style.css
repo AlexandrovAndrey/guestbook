@@ -1,0 +1,128 @@
+body {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	font-family: Arial,sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #6da3bdG;
+}
+
+h1{
+	font-size: 2.2em;
+}
+
+.message{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #ccc;
+}
+
+.message:nth-of-type(1) {
+	margin-top: 30px;
+}
+
+.message_header{
+	font-size: .9em;
+	margin-bottom: 5px;
+	color: grey;
+}
+.message_author {
+	float: left;
+	margin-right: 5px;
+}
+
+.message_controls {
+	margin-top: 10px;
+	font-size: .9em;
+}
+.message_controls a {
+	color: #6da3bd;
+	margin-right: 5px;
+}
+
+.message_answers {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-left: 1px dotted #ccc
+}
+
+.message_level1{
+	margin: 0;
+	padding: 10px 0 10px 10px;
+	border-left: 1px dotted #ccc;
+	border-bottom: none;
+}
+.message_level2{
+	margin: 0;
+	padding: 0px 0 10px 30px;
+	border-left: 1px dotted #ccc;
+	border-bottom: none;
+}
+
+.message_answers .message_header{
+	margin-bottom: 0px;
+}
+
+.message_answers .message_controls{
+	margin-top: 5px;
+}
+
+
+.add_new_message{
+	margin-bottom: 20px;
+}
+.add_new_message a{
+	color: white;
+	background-color: #6da3bd;
+	padding: 10px;
+}
+
+textarea {
+	width: 750px;
+	display: block;
+	margin: 10px;
+	margin-left: 0;
+	height: 100px;
+	border: 1px solid #ccc;
+	padding: 5px;
+    outline-width: 0;
+}
+.new_message_block input, .answer_text_block input{
+	width: 750px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #ccc;
+    outline-width: 0;
+}
+
+.new_message_block {
+	background-color: #e5e5e5;
+	padding: 20px;
+	display: none;
+}
+
+.new_message_block a, .answer_text_block a{
+	padding: 7px;
+	color: white;
+	background-color: rgba(255, 49, 0, 0.67);
+}
+.new_message_block a.cancel_btn, .answer_text_block a.cancel_btn{
+	background-color: rgba(62, 61, 61, 0.31);
+}
+
+.answer_text_block {
+	display: none;
+	padding: 15px;
+	background-color: #e5e5e5;
+}
+
+.edit_text_block {
+	margin-top: 5px;
+}
